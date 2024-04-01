@@ -1,0 +1,250 @@
+.bg-cont {
+  background-color: #000000;
+  padding: 15px;
+  text-align: center;
+  
+}
+.only {
+  margin-left: 500px;
+  font-size: bold;
+}
+nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+.search-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+.input {
+  border: none;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+  width: 280px;
+  background: transparent;
+}
+.icon-cont i {
+  margin: 0px 35px;
+  font-size: 20px;
+}
+/*register-cont */
+.reg-cont {
+  display: none;
+}
+.user {
+  position: relative;
+}
+.user:hover .reg-cont {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+  left: 70%;
+  z-index: +1;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0.01);
+  border-radius: 8px;
+  padding: 10px 20px;
+ 
+}
+
+/* dropdown-cont */
+.dropdown-anchor {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+.drop-row-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  position: relative;
+}
+.drop-row-cont a, .drop-row a{
+  text-decoration: none;
+  color: black;
+}
+
+.drop-row-cont::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  bottom: -8px;
+  height: 3px;
+  background-color: #ff523b;
+  transition: all 0.2s;
+}
+.drop-row-cont:hover::after {
+  width: 100%;
+}
+.dropdown-anchor:hover .drop-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 120px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0.01);
+  border-radius: 8px;
+  z-index: 1;
+  background-color: white;
+}
+
+.down-arrow {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.items {
+  font-size: 12px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.drop-list {
+  display: none;
+}
+.row-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.row-cont p {
+  padding-top: 10px;
+  font-size: 15px;
+}
+.second-sub-cont {
+  position: relative;
+}
+/*   sub-droplist */
+.sub-drop-list {
+  display: none;
+}
+
+.second-sub-cont:hover .sub-drop-list {
+  display: flex;
+  flex-direction: column;
+  right: 30%;
+  background-color: #ff523b;
+  padding-left: 30px;
+}
+.coursel2{
+  margin-top: 10px;
+}
+/*-----------arrivels---------*/
+.NEW {
+  margin-top: 30px;
+  text-align: center;
+}
+.track{
+  z-index: -2;
+}
+/*--------------------pictures-------*/
+.pictures{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.pictures1{
+  display: flex;
+}
+.pictures2{
+  display: flex;
+}
+.pics{
+  height: 600px;
+  width: 500px;
+  padding: 5px;
+}
+.syb{
+  height: 90px;
+  width : 90px;
+}
+.symbol{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  text-align: center;
+}
+.more{
+  margin-top: 50px;
+  text-align: center;
+}
+.brands{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+.brands1{
+  justify-content: space-evenly;
+
+}
+.qq{
+  width: 250px;
+  padding: 10px;
+}
+.main-cnt1{
+  overflow-y: scroll;
+  width: 95%; 
+   height: 20vh;  
+  margin-left: 5%;
+ 
+}
+span{
+  color: red;
+}
+.scroll{
+   background-color: darkgray; 
+  height: 500px;
+  padding-top: 60px;
+  margin-top: 50px;
+  
+
+}
+.bottom{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  
+  padding: 20px;
+}
+.bottom1{
+  display: flex;
+  padding: 15px;
+}
+.fa-brands{
+  padding: 10px;
+}
+/*-------------corousel----*/
+.card-container {
+  width: 100%; /* Set the width of the container */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent cards from wrapping */
+  
+}
+
+.card {
+  display: inline-block; /* Display cards in a row */
+  width:400px; /* Set the width of each card */
+  height: 600px; /* Set the height of each card */
+  background-color: #f0f0f0; /* Background color for cards */
+  margin-right: 10px; /* Add space between cards */
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.kk{
+  height: 500px;
+  width: 400px;
+}
+.xx{
+  text-align: center;
+}

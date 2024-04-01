@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+body{
+    background: white;
+}
+.container{
+    width: 450px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1); 
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: rgb(123, 123, 123);
+    margin-bottom: 2rem;
+
+}
+form input{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(247, 244, 244);
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: .9rem;
+    
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 15px 0;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color:#019E43 ;
+    color: white;
+    cursor: pointer;
+
+
+}
+.field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+button:hover{
+    background-color:rgba(#019e43 , 0.877) ;
+}
+input:focus{
+    border: 1px solid rgb(192,192,192);
+}
+
+.login{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: rgb(109, 108, 108);
+}
+.login a{
+    color: rgb(35, 35, 250);
+    text-decoration: none;
+    margin-left: 7px;
+}
+.forget-pass{
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0.3rem 1.4rem 0 0;
+
+}
+.forget-pass a{
+    text-decoration: none;
+    color: rgb(73,71,71);
+}

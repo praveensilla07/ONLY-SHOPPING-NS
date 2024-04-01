@@ -1,0 +1,74 @@
+.bg-denim {
+    background-image: url('https://images.bestsellerclothing.in/live/image/catalog/brandstore/bestseller/banners/1920x500px_Only_Banner_Refresh_CLP_Desktop.jpg');
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+}
+.img-jeans-types {
+    width: 240px;
+    height: 350px;
+}
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+}
+.carousel-images {
+    display: flex;
+}
+.jeans-styles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-hover img:hover {
+    content: url('https://images.bestsellerclothing.in/data/only/10-nov-2023/291287301_g0.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto');
+    width: 300px;
+    height: 394.5px;
+}
+.img-hover img {
+    transition: all 3s ease;
+}
+.jeans-image-card {
+    width: 300px;
+    height: 394.5px;
+
+}
+.categories {
+    width: 20%;
+    position: sticky;
+    top: 0;
+}
+.jeans-main-cotainer {
+    width: 78%;
+}
+.jeans-name-card {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dropdown-options {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+select {
+    content:none;
+}
+.categories-header {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma;
+}
+.vardana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.footer-bg {
+    background-color: rgb(139, 177, 178);
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.footer-text {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(53, 53, 53);
+}

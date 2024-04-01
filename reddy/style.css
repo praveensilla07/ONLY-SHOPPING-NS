@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    h2{
+        text-align: left;
+        padding-left: 130px;
+        margin-top: 30px;
+        color: #33333363;
+        font-family:Courier, monospace;
+    }
+    h3{
+        font-size: 15px;
+        justify-self: baseline;
+        color:#333333;
+        font-family:FreeMono, monospace;   
+    }
+    h4 {
+        background-color: black;
+        color: #fff;
+    }
+    h6{
+        color: orangered;
+        font-size: 200;
+    }
+    .gallary{
+        display: flex;
+        width:100%;
+        height: 62vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;   
+    }
+    .product{
+        width: 23%;
+        min-height: 62vh;
+        margin: 10px;
+        float: left;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border: none;
+        justify-content:last baseline;  
+    }
+    img{
+
+        width: 220px;
+        height: 210px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+    }
+    .top-img{
+        width: 220px;
+        height: 21opx;
+        cursor: pointer;
+        position: absolute;
+        object-fit: cover;
+    }
+    #img2:hover{
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    
